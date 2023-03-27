@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package com.assignment2.grpc.query4;
+
+option java_multiple_files = true;
+option java_package = "com.assignment2.grpc.query4";
+
+message EduQueryFourRequest{
+  int32 Year_range = 1;
+  string Type = 2;
+  string Length = 3;
+  string url=4;
+}
+
+message EduQueryFourResponse{
+  string message=1;
+}
+service EduQueryFourService{
+  rpc GetEduQueryFour(EduQueryFourRequest) returns(EduQueryFourResponse);
+}

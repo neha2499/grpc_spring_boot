@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.assignment2</groupId>
+    <artifactId>grpc-parent</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>grpc-parent</name>
+    <modules>
+        <module>grpc-common</module>
+        <module>grpc-service</module>
+        <module>grpc-client</module>
+    </modules>
+    <packaging>pom</packaging>
+</project>
